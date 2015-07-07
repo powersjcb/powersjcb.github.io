@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/jacob-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -38,10 +38,10 @@
           </div>
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="mailto:powersjcb@gmail.com">Contact</a>
                 </li>
                 <li>
                   <a href="http://powersjcb.tumblr.com/">Blog</a>
@@ -67,7 +67,7 @@
           <div class="item active">
             <div class="fill" style="background-image:url('http://res.cloudinary.com/slickapp-io/image/upload/v1435979108/10626871_10154566645770268_2696217738256768547_n_ysewpy.jpg');"></div>
             <div class="carousel-caption">
-                <h2>Jacob Powers - Web Developer</h2>
+              <h2>Jacob Powers - Web Developer</h2>
             </div>
           </div>
           <div class="item">
@@ -109,33 +109,123 @@
 
     <!-- Features Section -->
     <div class="row">
-        <div class="col-lg-12">
-            <h2 class="page-header">Web development</h2>
+      <div class="col-lg-12">
+        <h3 class="page-header">Contact</h3>
+
+        <div class="">
+          Jacob Powers
         </div>
-        <div class="col-md-6">
-            <h3>Skills</h3>
-            <ul>
-                <li>Ruby</li>
-                <li>Javascript</li>
-                <li>Ruby-on-Rails</li>
-                <li>jQuery</li>
-                <li>Unstyled page elements for easy customization</li>
-                <li>17 HTML pages</li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+
+        <div class="">
         </div>
+
+        <div class="">
+          <div>
+            700 Illinois Street, Unit 204
+          </div>
+          <div>
+            San Francisco, CA 94107
+          </div>
+        </div>
+
+        <a href="mailto:powersjcb@gmail.com">
+          <div>
+            powersjcb@gmail.com
+          </div>
+        </a>
+
+      </div>
+
+
+      <div class="col-xs-12">
+          <h2 class="page-header">Web development</h2>
+      </div>
+      <div class="col-xs-12">
+          <h3>Projects</h3>
+          <!-- Slick -->
+          <div class="row project-container">
+            <div class="col-md-4 col-xs-12 project-desc">
+              <a href="http://www.slickapp.io/">
+                <h4> Slickapp.io</h3>
+              </a>
+
+              <p>
+                Single page chat application built with Backbone.js and Rails
+              </p>
+              <h4>Features</h4>
+              <ul>
+                <li>Group chat that has real-time communication with WebSockets</li>
+                <li>Provides “is-currently-typing” feature using Pusher Client API</li>
+                <li>Infinite scrolling with smart page scroll that accounts for browser caching and loading of images</li>
+              </ul>
+            </div>
+            <div class="col-md-8 col-xs-12">
+              <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1435973618/Screen_Shot_2015-07-03_at_6.32.53_PM_h3wovl.png" alt="Slick App" />
+            </div>
+          </div>
+
+          <br>
+
+          <!-- Javascript game -->
+          <div class="row project-container">
+            <div class="col-md-6 col-xs-12 project-desc">
+              <a href="http://powersjcb.github.io/dodgeball/">
+                <h4>Dodgeball</h3>
+              </a>
+
+              <p> Dodge for as long as you can, stay away from the walls, its surprisingly tough.</p>
+              <p>
+                Javascript keep-away game built with HTML5 canvas
+              </p>
+              <h4>Features</h4>
+              <ul>
+                <li>Moving objects use homebrew isentropic momentum model</li>
+                <li>Uses quadtrees for efficient collision detection</li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-xs-12">
+              <div class="fill">
+                <video src="http://res.cloudinary.com/slickapp-io/video/upload/v1435968189/go_dodge_go3_hfhmdw.mp4" autoplay loop></video>
+              </div>
+            </div>
+          </div>
+
+          <br>
+
+          <!-- FreeCell -->
+          <div class="row project-container">
+            <div class="col-md-6 col-xs-12 project-desc">
+              <a href="http://powersjcb.github.io/dodgeball/">
+                <h4>FreeCell</h3>
+              </a>
+              <p>
+                Text based version of classic FreeCell
+              </p>
+              <h4>Features</h4>
+              <ul>
+                <li>Object-oriented programming with ruby</li>
+                <li>Supports moves of stacked sequential cards</li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-xs-12">
+              <div class="fill">
+                <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1435979381/freecell_qnywca.gif" alt="FreeCell" />
+              </div>
+            </div>
+          </div>
+      </div>
     </div>
 
     <!-- about -->
-    <h2>About</h2>
+    <h2 id="about" class="page-header">About</h2>
     <!-- college -->
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 col-xs-10">
         <p>
           Jacob graduated from Virginia Tech in 2011 with a Bachelors of Science in Mechanical Engineering.
         </p>
       </div>
-      <div class="col-xs-offset-2 col-xs-3">
+      <div class="col-md-offset-2 col-md-3 col-xs-4">
         <a href="https://www.vt.edu">
           <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1435993674/Vt-logo_hzbghv.png" alt="Virginia Tech logo" />
         </a>
@@ -146,13 +236,13 @@
     <hr>
     <!-- worked at jlab -->
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 col-xs-10">
         <p>
-          He worked at Jefferson Lab from 2012 to 2014.  Developing solutions to
+          Jefferson Lab from 2012 to 2014.  Developing solutions to
            cool engineering problems.
         </p>
       </div>
-      <div class="col-xs-offset-2 col-xs-3">
+      <div class="col-md-offset-2 col-md-3 col-xs-4">
         <a href="https://wwww.jlab.org/">
           <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1435994689/JLab_logo_text_white_ldxfur.png" alt="Jefferson Lab" />
         </a>
@@ -163,38 +253,60 @@
 
     <!-- worked at jlab -->
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 col-xs-10">
         <p>
-          He worked at SLAC National Accelerator Laborartory from 2014 to 2015.
+          SLAC National Accelerator Laborartory at Stanford University from 2014 to 2015.
           Development and test of cryogenic refrigerator for Large Synoptic
           Survey Telescope.
         </p>
       </div>
-      <div class="col-xs-offset-2 col-xs-3">
+      <div class="col-md-offset-2 col-md-3 col-xs-4">
         <a href="https://wwww.slac.stanford.edu/">
           <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1435997405/SLAC_LogoSD_i094zb.png" alt="SLAC - Stanford University" />
         </a>
       </div>
     </div>
+
+    <hr>
 
     <!-- went to app academy -->
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 col-xs-10">
         <p>
-          He worked at SLAC National Accelerator Laborartory from 2014 to 2015.
-          Development and test of cryogenic refrigerator for Large Synoptic
-          Survey Telescope.
+          Immersive web development
         </p>
       </div>
-      <div class="col-xs-offset-2 col-xs-3">
-        <a href="https://wwww.slac.stanford.edu/">
-          <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1435997405/SLAC_LogoSD_i094zb.png" alt="SLAC - Stanford University" />
+      <div class="col-md-offset-2 col-md-3 col-xs-4">
+        <a href="https://wwww.appacademy.io/">
+          <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1436224363/Screen_Shot_2015-07-06_at_4.12.01_PM_ouoxgr.png" alt="App Academy" />
         </a>
       </div>
     </div>
 
+    <br>
+
+    <h2 class="page-header">Skills</h2>
+    <ul class="row">
+      <div class="col-md-4"><strong>Ruby</strong></div>
+      <div class="col-md-4"><strong>Ruby-on-Rails</strong></div>
+      <div class="col-md-4"><strong>Javascript</strong></div>
+      <div class="col-md-4">jQuery</div>
+      <div class="col-md-4">Backbone.js</div>
+      <div class="col-md-4">HTML</div>
+      <div class="col-md-4">CSS</div>
+      <div class="col-md-4">SQL</div>
+      <div class="col-md-4">git</div>
+    </ul>
 
     <!-- /.row -->
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright &copy; Jacob Powers 2015</p>
+            </div>
+        </div>
+    </footer>
   </div>
 
 

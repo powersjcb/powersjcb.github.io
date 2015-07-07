@@ -106,37 +106,53 @@
   </header>
 
   <div class="container">
-
-    <!-- Features Section -->
+    <!-- contact -->
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-12 contact">
         <h3 class="page-header">Contact</h3>
+        <div class="row">
 
-        <div class="">
-          Jacob Powers
-        </div>
-
-        <div class="">
-        </div>
-
-        <div class="">
-          <div>
-            700 Illinois Street, Unit 204
+          <!-- traditional contact -->
+          <div class="col-xs-6">
+            <div class="">
+              Jacob Powers
+            </div>
+            <div class="">
+              <div>
+                700 Illinois Street, Unit 204
+              </div>
+              <div>
+                San Francisco, CA 94107
+              </div>
+            </div>
           </div>
-          <div>
-            San Francisco, CA 94107
+
+          <!-- linky contact -->
+          <div class="col-xs-6">
+            <div class="">
+              <i class="fa fa-github"></i>
+              <a class="" href="https://github.com/powersjcb">
+                <span class="">github.com/powersjcb</span>
+              </a>
+            </div>
+            <div class="">
+              <i class="fa fa-linkedin"></i>
+              <a class="author-detail" href="https://www.linkedin.com/in/powersjcb">
+                <span class="linkedin">LinkedIn</span>
+              </a>
+            </div>
+
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:powersjcb@gmail.com">
+              <span>
+                powersjcb@gmail.com
+              </span>
+            </a>
           </div>
         </div>
-
-        <a href="mailto:powersjcb@gmail.com">
-          <div>
-            powersjcb@gmail.com
-          </div>
-        </a>
-
       </div>
 
-
+      <!--  -->
       <div class="col-xs-12">
           <h2 class="page-header">Web development</h2>
       </div>
@@ -144,7 +160,7 @@
           <h3>Projects</h3>
           <!-- Slick -->
           <div class="row project-container">
-            <div class="col-md-4 col-xs-12 project-desc">
+            <div class="col-md-6 col-xs-12 project-desc">
               <a href="http://www.slickapp.io/">
                 <h4> Slickapp.io</h3>
               </a>
@@ -159,8 +175,8 @@
                 <li>Infinite scrolling with smart page scroll that accounts for browser caching and loading of images</li>
               </ul>
             </div>
-            <div class="col-md-8 col-xs-12">
-              <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1435973618/Screen_Shot_2015-07-03_at_6.32.53_PM_h3wovl.png" alt="Slick App" />
+            <div class="col-md-6 col-xs-12">
+              <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1436253526/Screen_Shot_2015-07-07_at_12.17.47_AM_chbxdh.png" alt="Slick App" />
             </div>
           </div>
 
@@ -221,11 +237,24 @@
     <!-- college -->
     <div class="row">
       <div class="col-md-6 col-xs-10">
-        <p>
-          Jacob graduated from Virginia Tech in 2011 with a Bachelors of Science in Mechanical Engineering.
-        </p>
+        <h4>Virginia Tech</h4>
+        <span>
+          <em>Bachelor of Science Mechanical Engineering</em>
+        </span>
+        <div class="pull-right">
+          <strong>2011</strong>
+        </div>
+        <ul>
+          <li>Senior design project with
+            <a href="http://www.romela.org/main/Robots">RoMeLa</a>
+            building humanoid robots with
+            passive-dynamic gait</li>
+          <li>Coursework focused on thermal/structural systems</li>
+        </ul>
+
       </div>
-      <div class="col-md-offset-2 col-md-3 col-xs-4">
+
+      <div class="col-md-offset-1 col-md-3 col-xs-4">
         <a href="https://www.vt.edu">
           <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1435993674/Vt-logo_hzbghv.png" alt="Virginia Tech logo" />
         </a>
@@ -237,12 +266,29 @@
     <!-- worked at jlab -->
     <div class="row">
       <div class="col-md-6 col-xs-10">
-        <p>
-          Jefferson Lab from 2012 to 2014.  Developing solutions to
-           cool engineering problems.
-        </p>
+        <h4>Jefferson Lab</h4>
+        <span>
+          <em>Mechanical Engineer I</em>
+        </span>
+        <div class="pull-right">
+          <strong>2012 to 2014</strong>
+        </div>
+        <ul>
+          <li>Responsible for developing, analyzing, and testing mechanical
+            systems for particle accelerators</li>
+            <li>Frequently requested to analyze complex thermal/structural
+              systems, created finite element models using ANSYS, delivered
+              clear documentation of the results</li>
+            <li>Faced budget cuts due to sequestration, delivered novel
+              cryogenic thermal
+              <a href="http://www.osti.gov/scitech/biblio/1182269">
+                test system
+              </a>
+              for 10ft diameter superconducting
+              magnets with limited schedule and budget.</li>
+        </ul>
       </div>
-      <div class="col-md-offset-2 col-md-3 col-xs-4">
+      <div class="col-md-offset-1 col-md-3 col-xs-4">
         <a href="https://wwww.jlab.org/">
           <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1435994689/JLab_logo_text_white_ldxfur.png" alt="Jefferson Lab" />
         </a>
@@ -251,16 +297,28 @@
 
     <hr>
 
-    <!-- worked at jlab -->
+    <!-- worked at SLAC -->
     <div class="row">
       <div class="col-md-6 col-xs-10">
+        <h4>SLAC National Accelerator Laborartory (Stanford University)</h4>
+        <span><em>LSST - Mechanical Engineer</em></span>
+        <div class="pull-right">
+          <strong>2014 to 2015</strong>
+        </div>
         <p>
-          SLAC National Accelerator Laborartory at Stanford University from 2014 to 2015.
           Development and test of cryogenic refrigerator for Large Synoptic
           Survey Telescope.
         </p>
+        <ul>
+          <li>Led a team of 3 commissioning, operating, and testing cryogenic
+            refrigerators for $150m camera</li>
+          <li>Needed to analyze test data, learned SQL and R, used results to
+            guide on-going test program</li>
+          <li>Cryo-refrigerators lacked documentation, developed new procedures
+            and integration specs for project with +7 collaborating organizations</li>
+        </ul>
       </div>
-      <div class="col-md-offset-2 col-md-3 col-xs-4">
+      <div class="col-md-offset-1 col-md-3 col-xs-4">
         <a href="https://wwww.slac.stanford.edu/">
           <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1435997405/SLAC_LogoSD_i094zb.png" alt="SLAC - Stanford University" />
         </a>
@@ -272,11 +330,23 @@
     <!-- went to app academy -->
     <div class="row">
       <div class="col-md-6 col-xs-10">
-        <p>
-          Immersive web development
-        </p>
+        <h4>App Academy</h4>
+        <span> </span>
+        <div class="pull-right">
+          <strong>April 2015</strong>
+        </div>
+        <span>
+          Immersive web development program: acceptance < 5%
+        </span>
+        <ul>
+          <li>
+            Full stack web development curriculum with ruby-on-rails and
+            javascript
+          </li>
+          <li>Emphasis on coding best practices</li>
+        </ul>
       </div>
-      <div class="col-md-offset-2 col-md-3 col-xs-4">
+      <div class="col-md-offset-1 col-md-4 col-xs-4">
         <a href="https://wwww.appacademy.io/">
           <img class="img-responsive" src="http://res.cloudinary.com/slickapp-io/image/upload/v1436224363/Screen_Shot_2015-07-06_at_4.12.01_PM_ouoxgr.png" alt="App Academy" />
         </a>
